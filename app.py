@@ -23,7 +23,7 @@ def predict():
         prediction = model.predict(features)
         
         # Return the prediction result to the HTML template
-        prediction_text = f"The Predicted Crop is: {prediction[0]}"
+        prediction_text = f"The Recommended Crop is: {prediction[0]}"
         return render_template("index.html", prediction_text=prediction_text)
     
     except Exception as e:
