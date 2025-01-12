@@ -180,5 +180,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
  folder in your project and link them in the README.
 2. If the machine learning model isn't included in the repo, users should be instructed on how to generate or obtain the `model.pkl` file.
 
-Let me know if you'd like further adjustments or additions!
+
 
