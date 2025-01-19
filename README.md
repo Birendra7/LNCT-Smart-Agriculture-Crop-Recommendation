@@ -161,7 +161,7 @@ Here are some example screenshots of the platform:
 
 ![image](https://github.com/user-attachments/assets/1f388cf8-26c6-4bfd-ae9d-7cda6811156a)
 
-   *Note: Replace the above paths with actual screenshots in your project directory under `/screenshots`.*
+   
 
 ## License
 
@@ -181,4 +181,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 2. If the machine learning model isn't included in the repo, users should be instructed on how to generate or obtain the `model.pkl` file.
 
 
-
+# live link :- https://lnct-smart-agriculture-crop-u467.onrender.com/
