@@ -3,16 +3,16 @@ from flask import Flask, request, render_template
 import pickle
 
 # Create flask app
-flask_app = Flask(__name__)
+app = Flask(__name__)
 
 # Load the pre-trained model
 model = pickle.load(open("model.pkl", "rb"))
 
-@flask_app.route("/")
+@app.route("/")
 def Home():
     return render_template("index.html")
 
-@flask_app.route("/predict", methods=["POST"])
+@app.route("/predict", methods=["POST"])
 def predict():
     try:
         # Collect the form data and convert it to a list of floats
@@ -30,4 +30,4 @@ def predict():
         return render_template("index.html", prediction_text=f"Error in prediction: {str(e)}")
 
 if __name__ == "__main__":
-    flask_app.run(debug=True)
+    app.run(debug=True)
